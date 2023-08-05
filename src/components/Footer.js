@@ -1,12 +1,18 @@
 import React from "react";
 import './Footer.css';
 
+
+
 class App extends React.Component {
   /** @param {Record<string, any>} props */
   constructor(props) {
     super(props);
+    this.props={
+      goTo:'',
+    }
+    this.headerRef = React.createRef();
     this.state = {
-    /*  */ 
+      // 
     };
   }
   render() {
@@ -55,13 +61,12 @@ class App extends React.Component {
       </div>
 
       <div className="gradient-white">
-        <a
+        <span
           className="top"
-          href="#top"
-          onclick={this.smoothScroll()}
+          onclick={this.props.goTo}
           title="Go to top"
           activeClass="active"
-          >back-to-top</a
+          >back-to-top</span
         >
       </div>
     </footer>

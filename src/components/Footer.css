@@ -86,7 +86,7 @@ footer {
   .row {
     zoom: 1;
   }
-  footer a.top {
+  footer span.top {
     background: transparent url(img/social.png) 0 -217px;
     width: 118px;
     height: 65px;
@@ -95,11 +95,11 @@ footer {
     border-radius: 60% 60% 20% 20%;
     left: 50%;
     margin-left: -59px;
-    /* bottom: -40px; */
     bottom: 74px;
     text-indent: -9999px;
+    cursor: pointer;
   }
-  footer a.top:hover {
+  footer span.top:hover {
     bottom: 80px;
   }
   footer a:hover {

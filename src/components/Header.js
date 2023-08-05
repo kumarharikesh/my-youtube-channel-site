@@ -1,6 +1,7 @@
 import React from "react";
 import './Header.css';
 
+
 class App extends React.Component {
   /** @param {Record<string, any>} props */
   constructor(props) {
@@ -13,9 +14,8 @@ class App extends React.Component {
     this.openNav = this.openNav.bind(this);
     this.closeNav = this.closeNav.bind(this);
   }
-
+  
 openNav() {this.setState({modelDisplay: "block", panelWidth: "200px"})}
-
 closeNav() {this.setState({modelDisplay: "none", panelWidth: "0px"})}
 
   render() {
