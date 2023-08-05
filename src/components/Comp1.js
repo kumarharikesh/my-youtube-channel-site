@@ -64,7 +64,7 @@ class App extends React.Component {
     */}
 {/* Purpose */}
 <div className="box-purpose"><h3>Subscribe now & become a part of 🙶TheCreativeVibeZone🙷 family. 
-  Let's embark on this exciting journey together as we unleash the creative potential that amaze all!!<br></br>
+  Let's embark on this exciting journey together as we unleash the creative potential that amaze all !!
  Join us now, & let your imagination soar & good vibes inspire you!! 🚀🌟✨🍃 </h3> <sh></sh>
 </div>
 
