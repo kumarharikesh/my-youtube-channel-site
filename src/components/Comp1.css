@@ -238,6 +238,8 @@ div.big-container {
   @media (max-width:600px) {
     .subscribe_container {
       top: 220%;
+      right: 5%;
+      left: 5%;
     }
   }
   .subscribe_button {
