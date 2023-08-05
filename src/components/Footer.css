@@ -1,0 +1,228 @@
+
+/* ==========================footer=========================== */
+footer {
+    background: #f5f5f5;
+    color: #666666;
+    /* display: flow-root; */
+    height: 50px;
+    padding: 40px 5% 0 5%;
+    /* font-size: 16px; */
+    font-size: 1.5rem;
+    font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    text-align: center;
+    -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    clear: both;
+    position: absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top: 260%;
+  }
+  .footer {
+    outline: 0;
+    /* font-size: 100%; */
+    bottom: 0;
+    position: absolute;
+    clear: both;
+    vertical-align: bottom;
+  }
+   @media (min-width: 1500px) {
+    footer{
+      position: absolute;
+      top: 250%;
+      
+    }
+  }
+  
+@media(max-width: 1000px)and(min-width:1300px)  {
+    .footer{
+      top: 230%; 
+      position: absolute;
+    }
+  }
+  @media (max-width: 800px) {
+    footer{
+      position: relative;
+      margin-top: 200px;;
+      bottom: 0; 
+    }
+  } 
+  /**/
+  @media (max-width: 500px) {
+    footer{
+      position: relative;
+      margin-top: 100px;;
+      bottom: 0; 
+    }
+  } 
+  footer .left a {
+    float: left;
+    text-decoration: none;
+  }
+  footer .left {
+    float: none !important;
+  }
+  
+  footer a {
+    color: #666666;
+  }
+  header a,
+  .animate-color,
+  footer a {
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .clearfix,
+  section,
+  .row {
+    zoom: 1;
+  }
+  footer a.top {
+    background: transparent url(img/social.png) 0 -217px;
+    width: 118px;
+    height: 65px;
+    display: block;
+    position: absolute;
+    border-radius: 60% 60% 20% 20%;
+    left: 50%;
+    margin-left: -59px;
+    /* bottom: -40px; */
+    bottom: 74px;
+    text-indent: -9999px;
+  }
+  footer a.top:hover {
+    bottom: 80px;
+  }
+  footer a:hover {
+    color: #333333;
+  }
+  .item,
+  .top,
+  .logodiv,
+  .insta,
+  .twitter,
+  .facebook,
+  .linkedin,
+  header nav li a {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .row:after {
+    clear: both;
+  }
+  /* .clearfix:before,
+    section:before,
+    .row:before,
+    .clearfix:after,
+    section:after, */
+  .row:after {
+    display: table;
+    content: "";
+  }
+  
+  ul[class="social"],
+  ul[id="nav-header"],
+  footer ul {
+    display: contents;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+  ul[class="social"] li,
+  ul[id="nav-header"] li,
+  footer ul li {
+    display: contents;
+    text-align: center;
+  }
+  footer ul li a {
+    margin: 10px;
+  }
+  
+  footer .right {
+    float: right !important;
+  }
+  footer div nav {
+    margin-right: 100px;
+  }
+  /* ! update */
+  footer .row .right a.facebook {
+    background: transparent url(img/social.png) 0 -545px;
+    /* background-color: aqua; */
+    width: 51px;
+    height: 53px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: 24%;
+    bottom: 15px;
+    text-indent: -9999px;
+  }
+  footer .row .right a.twitter {
+    background: transparent url(img/social.png) 0 -597px;
+    /* background-color: aqua; */
+    width: 51px;
+    height: 52px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: 18%;
+    bottom: 15px;
+    text-indent: -9999px;
+  }
+  footer .row .right a.linkedin {
+    background: transparent url(img/social.png) 0 -699px;
+    /* background-color: aqua; */
+    width: 51px;
+    height: 53px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: 12%;
+    bottom: 15px;
+    text-indent: -9999px;
+  }
+  footer .row .right a.insta {
+    background: transparent url(img/inta02.png)-7px -73px;
+    /* background-color: aqua; */
+    width: 51px;
+    height: 53px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: 6%;
+    bottom: 15px;
+    text-indent: -9999px;
+  }
+  footer .row .right a:hover {
+    bottom: 22px;
+  }
+  @media (max-width: 900px) {
+    footer nav {
+      display: none;
+      /* margin-right: 40px; */
+    }
+    footer .row .right a.facebook {
+      right: 48%;
+    }
+    footer .row .right a.twitter {
+      right: 34%;
+    }
+    footer .row .right a.linkedin {
+      right: 20%;
+    }
+  }

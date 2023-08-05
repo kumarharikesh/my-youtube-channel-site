@@ -1,0 +1,179 @@
+/* ======================= */
+.video-box{
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    transform: translate(0);
+    transform-style: preserve-3d;
+  }
+
+  .video-box sh {
+    position: absolute;
+    inset: -1px;
+    border: 21px solid #0000;
+    transform: translateZ(-1px);
+    /* outline: 1px solid; */
+  }
+  .video-box sh:before{
+    content:"";
+    position: absolute;
+    inset: -7px;
+    background: conic-gradient(from -50deg at 50% -20%, #ffd700, #f79d03, #ee6907, #e6390a, #de0d0d, #d61039, #cf1261, #c71585, #cf1261, #d61039, #de0d0d, #ee6907, #f79d03, #ffd700, #ffd700, #ffd700);
+    filter: blur(8px);
+    opacity: 0.3;
+  }
+
+.video-wrapper {
+    /* background-color: green; */
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid green;
+  border-right: 3px solid green;
+  transition: 0.3s;
+}
+.app .image-gallery-thumbnail,
+.app .image-gallery-slide-wrapper svg{
+  transition: 0.3s;
+}
+.app .image-gallery-thumbnail.active, 
+.app .image-gallery-thumbnail:focus,
+.app nav button:hover{
+  border: 3px solid green;
+  border-right: 4px solid green;
+  cursor: pointer;
+
+}
+.app button span img{
+  border: 1.5px solid green;
+}
+.app .image-gallery-slide-wrapper svg:hover {
+  color: green;
+}
+.close-video{
+  position: absolute;
+  padding: 0 25px;
+  top: 34px;
+  right: 0;
+  color: #fff;
+  font-size: 28px;
+  font-size: xx-large;
+  transition: 0.4s;
+}
+.close-video:hover{
+  color: red;
+  font-size: 36px;
+}
+
+@media (max-width: 770px) {
+  .close-video {
+    top: 30px;
+    padding: 0 22px;
+    font-size: x-large;
+  }
+  .close-video:hover{
+    color: red;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 500px) {
+  .close-video {
+  display: none;
+  }
+}
+/*========Description-Hover-Button=============*/
+
+span.image-gallery-description:hover{
+  right: 0;
+  width: 20%;
+}
+
+@media (max-width: 600px) {
+  span.image-gallery-description {
+  display: none;
+  }
+}
+.sti_container {
+  position: relative;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  background-color: blue;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 25px;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+.btn .btn-text {
+  max-width: 0;
+  display: inline-block;
+  -webkit-transition: color .25s 1.5s, max-width 2s;
+  transition: color .25s 1.5s, max-width 2s;
+  vertical-align: top;
+  white-space: nowrap;
+  overflow: hidden;
+  color: blue;
+}
+
+.btn:hover .btn-text {
+  max-width: 300px;
+  color: white;
+}
+/* =================Toggle Setting=================*/
+
+.toggle-setting-btn{
+  position: absolute;
+  top: 120%;
+  padding: 0 18px;
+  font-size: 26px;
+  transition: 0.3s;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.toggle-setting-btn:hover{
+  color: green;
+}
+@media (max-width: 770px) {
+  .toggle-setting-btn {
+    top: 119.5%;
+    padding: 0 16px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .toggle-setting-btn {
+  display: none;
+  }
+}
+.setting-content{
+  position: absolute;
+  top: 125%;
+  left: 30%;
+  right: 30%;
+  font-size: 14px;
+  color: green;
+  border: 2px solid green;
+  background: conic-gradient(from -50deg at 80% -30%, #ffd90055, #f79e035b, #ee670757, #e63a0a5a, #de0d0d, #d61039, #cf12615b, #c715865f, #cf126157, #d610385e, #de0d0d4c, #ee67074c, #f79e034e, #ffd9004d, #ffd90056, #ffd9004e); 
+}
+@media (max-width: 1200px) {
+  .setting-content {
+    font-size: 12px;
+  }
+}
