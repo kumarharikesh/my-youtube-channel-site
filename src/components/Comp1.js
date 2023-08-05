@@ -49,7 +49,7 @@ class App extends React.Component {
         <div className="tagline"><h1>Welcome to our channel site. (◕‿◕) .👋.🌵.💖</h1><sh></sh></div>
         <div className="box-about"><h3>🙶TheCreativeVibeZone🙷 is your one-stop destination for all things creative. 
           Whether you're an artist, a DIY enthusiast, a musician, or simply someone who appreciates the beauty of creativity, 
-          this channel is designed just for you!! 💕🌿🌸🦋🌻</h3><sh></sh>
+          this channel is designed just for you !! 💕🌿🌸🦋🌻</h3><sh></sh>
         </div>
     </div>
 
@@ -65,7 +65,7 @@ class App extends React.Component {
 {/* Purpose */}
 <div className="box-purpose"><h3>Subscribe now & become a part of 🙶TheCreativeVibeZone🙷 family. 
   Let's embark on this exciting journey together as we unleash the creative potential that amaze all !!
- Join us now, & let your imagination soar & good vibes inspire you!! 🚀🌟✨🍃 </h3> <sh></sh>
+ Join us now, & let your imagination soar & good vibes inspire you !! 🚀🌟✨🍃 </h3> <sh></sh>
 </div>
 
 {/* Hover Over */}
