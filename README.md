@@ -4,7 +4,7 @@ Recent update August, 2023<br/>
 🙶TheCreativeVibeZone🙷 is your one-stop destination for all things creative. Whether you're an artist, a DIY enthusiast, a musician, or simply someone who appreciates the beauty of creativity, this channel is designed just for you!! 💕🌿🌸🦋🌻
 
 <br/>preview<br/>
-![image](https://github.com/kumarharikesh/my-youtube-channel-site/assets/43793294/71ad6429-dfde-4f01-9791-a1d8541064e6)
+![image](https://github.com/kumarharikesh/my-youtube-channel-site/assets/43793294/542781e4-121c-41c9-9204-f85b20c33c87)
 <br/>
 
 # How to Use:
