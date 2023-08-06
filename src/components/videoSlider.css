@@ -168,7 +168,6 @@ span.image-gallery-description:hover{
   left: 30%;
   right: 30%;
   font-size: 14px;
-  color: green;
   border: 2px solid green;
   background: conic-gradient(from -50deg at 80% -30%, #ffd90055, #f79e035b, #ee670757, #e63a0a5a, #de0d0d, #d61039, #cf12615b, #c715865f, #cf126157, #d610385e, #de0d0d4c, #ee67074c, #f79e034e, #ffd9004d, #ffd90056, #ffd9004e); 
 }
