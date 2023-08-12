@@ -25,10 +25,10 @@ class App extends React.Component {
 
         <nav className="nav-footer">
           <ul>
-            <li className="page_item"><a href="#about">About</a></li>
-            <li className="page_item"><a href="#contact">Contact</a></li>
-            <li className="page_item"><a href="#portfolio">Portfolio</a></li>
-            <li className="page_item"><a href="#blog">Blog</a></li>
+            <li className="page_item"><a href="https://kumarharikesh-portfolio.netlify.app/">About</a></li>
+            <li className="page_item"><a href="https://kumarharikesh-portfolio.netlify.app/">Contact</a></li>
+            <li className="page_item"><a href="https://kumarharikesh-portfolio.netlify.app/">Portfolio</a></li>
+            <li className="page_item"><a href="https://kumarharikesh-portfolio.netlify.app/blogs">Blog</a></li>
           </ul>
         </nav>
 
@@ -54,7 +54,7 @@ class App extends React.Component {
         <div className="right">
           <a
             className="insta"
-            href="https://instagram.com/111_harry_style?igshid=1m68iw0bipjg0"
+            href="https://www.instagram.com/harikeshforever/"
             >go-to-insta</a
           >
         </div>
