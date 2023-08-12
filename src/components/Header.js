@@ -30,10 +30,10 @@ closeNav() {this.setState({modelDisplay: "none", panelWidth: "0px"})}
           <nav>
             <ul idName="nav-header" className="nav-header">
               <li className="page-item">
-                <a href="#about">About</a>
+                <a href="https://kumarharikesh-portfolio.netlify.app/">About</a>
               </li>
               <li className="page-item">
-                <a href="#contact">Contact</a>
+                <a href="https://kumarharikesh-portfolio.netlify.app/">Contact</a>
               </li>
               <li className="page-item">
                 <a href="https://kumarharikesh-portfolio.netlify.app/">Portfolio</a>
@@ -83,7 +83,7 @@ closeNav() {this.setState({modelDisplay: "none", panelWidth: "0px"})}
                   </li>
                   <li className="hackerrank">
                     <a
-                      href="https://www.hackerrank.com/harikeshpatel24?hr_r=1"
+                      href="https://www.hackerrank.com/Harikesh_Patel/"
                       title="Follow me on Hackerrank"
                       target="_blank" rel="noreferrer"
                       >hackerrank</a>
