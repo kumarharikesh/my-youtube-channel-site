@@ -63,6 +63,7 @@ class App extends React.Component {
       <div className="gradient-white">
         <span
           className="top"
+          href="https://the-creative-vibe-zone.netlify.app/"
           onclick={this.props.goTo}
           title="Go to top"
           activeClass="active"
