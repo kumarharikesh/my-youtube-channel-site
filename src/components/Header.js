@@ -42,7 +42,7 @@ closeNav() {this.setState({modelDisplay: "none", panelWidth: "0px"})}
               </li>
               <li className="page-item">
                 <a href="https://kumarharikesh-portfolio.netlify.app/"
-                   title="Contacts added but not one is worthy enough to remain as their priority."
+                   title="Contacts added but no one is worthy enough to remain as their priority."
                 >Contact</a>
               </li>
               <li className="page-item">
