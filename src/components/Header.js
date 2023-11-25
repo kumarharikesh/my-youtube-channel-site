@@ -36,16 +36,24 @@ closeNav() {this.setState({modelDisplay: "none", panelWidth: "0px"})}
           <nav>
             <ul idName="nav-header" className="nav-header">
               <li className="page-item">
-                <a href="https://kumarharikesh-portfolio.netlify.app/">About</a>
+                <a href="https://kumarharikesh-portfolio.netlify.app/" 
+                   title="To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment."
+                >About</a>
               </li>
               <li className="page-item">
-                <a href="https://kumarharikesh-portfolio.netlify.app/">Contact</a>
+                <a href="https://kumarharikesh-portfolio.netlify.app/"
+                   title="Contacts added but not one is worthy enough to remain as their priority."
+                >Contact</a>
               </li>
               <li className="page-item">
-                <a href="https://kumarharikesh-portfolio.netlify.app/">Portfolio</a>
+                <a href="https://kumarharikesh-portfolio.netlify.app/"
+                   title="Check ot my portfolio."
+                 >Portfolio</a>
               </li>
               <li className="page-item">
-                <a href="https://kumarharikesh-portfolio.netlify.app/blogs.html">Blog</a>
+                <a href="https://kumarharikesh-portfolio.netlify.app/blogs.html"
+                   title="Read the interesting blogs."
+                 >Blog</a>
               </li>
 
               <li style={{marginLeft: "30px"}}>
