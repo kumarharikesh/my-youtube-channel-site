@@ -24,7 +24,13 @@ closeNav() {this.setState({modelDisplay: "none", panelWidth: "0px"})}
     <header idName="header">
       <div className="row">
         <div className="col-12">
-          <div idName="logodiv"><a idName="logo" className="logo" href="https://kumarharikesh-portfolio.netlify.app/">H</a></div>
+          <div idName="logodiv">
+            <a idName="logo" 
+              className="logo" 
+              href="https://kumarharikesh-portfolio.netlify.app/" 
+              title="A home is made of hopes and dreams where our story begins…"
+            >H</a>
+          </div>
           <div className="openbtn" onClick={this.openNav}>&#9776;</div>
 
           <nav>
