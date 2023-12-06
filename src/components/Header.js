@@ -27,7 +27,7 @@ closeNav() {this.setState({modelDisplay: "none", panelWidth: "0px"})}
           <div idName="logodiv">
             <a idName="logo" 
               className="logo" 
-              href="https://kumarharikesh-portfolio.netlify.app/" 
+              href="https://harikesh-creative-react.netlify.app/" 
               title="A home is made of hopes and dreams where our story begins…"
             >H</a>
           </div>
